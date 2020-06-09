@@ -127,7 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="display.h" />
-    <ClInclude Include="font.h" />
+    <ClInclude Include="font.h">
+      <DeploymentContent>true</DeploymentContent>
+    </ClInclude>
     <ClInclude Include="Header.h" />
     <ClInclude Include="Maps.h" />
     <ClInclude Include="Obgect_alfa.h" />

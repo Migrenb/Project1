@@ -16,7 +16,7 @@ public:
 	Muve(Coordinates& SPEED,Object& alfa):Object(alfa) {
 		speed = SPEED;
 		direction = 0;
-		new_position= get_position();
+		new_position = get_position();
 		time = 0;
 		position = get_position();
 	}
